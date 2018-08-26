@@ -118,9 +118,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="MQImportX.cpp" />
+    <ClCompile Include="XLoader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MQImportX.hpp" />
+    <ClInclude Include="XLoader.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
