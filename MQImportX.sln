@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MQImportX", "MQImportX\MQImportX.vcxproj", "{E0A58AFE-C656-40EC-800C-B149A0D802DE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mqsdk", "mqsdk\mqsdk.vcxitems", "{DF956288-E7FF-4378-A7E4-9A0C4E658E67}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		mqsdk\mqsdk.vcxitems*{df956288-e7ff-4378-a7e4-9a0c4e658e67}*SharedItemsImports = 9
+		mqsdk\mqsdk.vcxitems*{e0a58afe-c656-40ec-800c-b149a0d802de}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0A58AFE-C656-40EC-800C-B149A0D802DE}.Debug|x64.ActiveCfg = Debug|x64
+		{E0A58AFE-C656-40EC-800C-B149A0D802DE}.Debug|x64.Build.0 = Debug|x64
+		{E0A58AFE-C656-40EC-800C-B149A0D802DE}.Debug|x86.ActiveCfg = Debug|Win32
+		{E0A58AFE-C656-40EC-800C-B149A0D802DE}.Debug|x86.Build.0 = Debug|Win32
+		{E0A58AFE-C656-40EC-800C-B149A0D802DE}.Release|x64.ActiveCfg = Release|x64
+		{E0A58AFE-C656-40EC-800C-B149A0D802DE}.Release|x64.Build.0 = Release|x64
+		{E0A58AFE-C656-40EC-800C-B149A0D802DE}.Release|x86.ActiveCfg = Release|Win32
+		{E0A58AFE-C656-40EC-800C-B149A0D802DE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA0B5C67-632D-451F-86B7-2EE401D0C640}
+	EndGlobalSection
+EndGlobal
